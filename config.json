@@ -1,0 +1,45 @@
+{
+  "tms": "print",
+
+  "browser_configs": {
+    "desktop": {
+      "emulation_params": {
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        }
+      },
+      "device_params": "Desktop Chrome"
+    },
+    "desktop_hd": {
+      "emulation_params": {
+        "viewport": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "device_params": "Desktop Chrome"
+    },
+    "samsung": {
+      "emulation_params": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.28 Safari/537.36"
+      },
+      "device_params": "Galaxy S9+"
+    },
+    "iphone": {
+      "emulation_params": {
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.28 Safari/537.36"
+      },
+      "device_params": "iPhone 13"
+    }
+  },
+
+  "context_settings": {
+    "default_navigation_timeout": 90000,
+    "default_timeout": 150000,
+    "geolocation": {
+      "latitude": 59.95,
+      "longitude": 30.31667
+    }
+  }
+}

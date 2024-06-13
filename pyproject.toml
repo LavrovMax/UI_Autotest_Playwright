@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "autotests-framew"
+version = "0.2.2"
+description = "Tests Framework"
+authors = ["Renat Leskov"]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+playwright_framework = { git="git@gitlab.agimagroup.ru:rleskov/playwright-framework.git", branch="master"}
+pytest = "^8.0.1"
+pytest-xdist = "^3.5.0"
+playwright = "^1.41.2"
+pytest-playwright = "^0.4.4"
+testit-adapter-pytest = "^2.8.3"
+testit-api-client = "^3.5.0"
+testit-python-commons = "^2.8.3"
+allure-pytest = "^2.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
